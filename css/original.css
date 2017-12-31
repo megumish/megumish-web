@@ -1,62 +1,135 @@
-body {
-  margin: 0;
-  font-family: source-sans-pro, sans-serif;
-  background-color: #9FA0A0;
-  color: white; }
-  body h1 {
-    font-weight: 500;
-    font-style: normal;
-    margin-top: 0px;
-    padding: 10px; }
-  body header {
-    background-color: #9BCB6C; }
-  body .exploitourist {
-    text-align: center;
+@media only screen and (min-width: 641px) {
+  body {
+    margin: 0;
+    font-family: source-sans-pro, sans-serif;
     background-color: #9FA0A0;
-    padding: 100px;
-    font-size: 150%; }
-    body .exploitourist .green {
-      color: #9BCB6C; }
-    body .exploitourist p {
-      color: #9BCB6C;
-      font-size: 130%; }
-      body .exploitourist p .white {
-        color: white; }
-  body .about {
-    text-align: right;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    background-color: #9BCB6C;
-    background-size: cover; }
-    body .about h1 {
-      display: inline-block;
-      padding-bottom: 0px;
-      margin-bottom: 0px;
-      font-size: 400%; }
-    body .about p {
-      padding-top: 0px;
-      margin-top: 0px; }
-  body .copyright {
+    color: white; }
+    body h1 {
+      font-weight: 500;
+      font-style: normal;
+      margin-top: 0px;
+      padding: 10px; }
+    body header {
+      background-color: #9BCB6C; }
+    body .exploitourist {
+      text-align: center;
+      background-color: #9FA0A0;
+      padding: 0;
+      font-size: 140%; }
+      body .exploitourist .green {
+        color: #9BCB6C; }
+      body .exploitourist p {
+        color: #9BCB6C;
+        font-size: 180%; }
+        body .exploitourist p .white {
+          color: white; }
+    body .about {
+      text-align: center;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      background-color: #9BCB6C;
+      background-size: cover; }
+      body .about h1 {
+        display: inline-block;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 300%; }
+      body .about p {
+        padding-top: 0px;
+        margin-top: 0px; }
+    body .copyright {
+      text-align: center;
+      background-color: #9FA0A0;
+      background-size: cover; }
+
+  .links {
     text-align: center;
+    margin-left: 1%;
+    padding-left: 1%;
+    padding-top: 10px;
+    height: auto; }
+
+  .link {
+    display: inline-block;
+    padding-left: 2%;
+    width: auto;
+    margin: 1%; }
+    .link p {
+      padding: 0;
+      margin: 0; }
+
+  .clearfix:after {
+    display: block;
+    clear: both;
+    content: ""; } }
+@media only screen and (max-width: 640px) {
+  body {
+    margin: 0;
+    font-family: source-sans-pro, sans-serif;
     background-color: #9FA0A0;
-    background-size: cover; }
+    color: white; }
+    body h1 {
+      font-weight: 500;
+      font-style: normal;
+      margin-top: 0px;
+      padding: 10px; }
+    body header {
+      background-color: #9BCB6C; }
+    body .exploitourist {
+      text-align: center;
+      background-color: #9FA0A0;
+      padding: 1;
+      margin: 1;
+      font-size: 110%; }
+      body .exploitourist .green {
+        color: #9BCB6C; }
+      body .exploitourist p {
+        color: #9BCB6C;
+        font-size: 140%; }
+        body .exploitourist p .white {
+          color: white; }
+    body .about {
+      text-align: center;
+      padding-left: 0px;
+      margin-left: 0px;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      background-color: #9BCB6C;
+      background-size: cover; }
+      body .about h1 {
+        display: inline-block;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        font-size: 300%; }
+      body .about p {
+        padding-left: 10px;
+        padding-top: 0px;
+        margin-top: 0px; }
+    body .copyright {
+      text-align: center;
+      background-color: #9FA0A0;
+      background-size: cover; }
 
-.links {
-  text-align: center;
-  padding-top: 10px;
-  height: auto; }
+  .links {
+    text-align: left;
+    padding-left: 13%;
+    padding-top: 10px;
+    height: auto; }
 
-.link {
-  display: inline-block;
-  padding-left: 200px;
-  height: 100px;
-  margin: 10px;
-  font-size: 200%; }
-  .link p {
-    padding: 0;
-    margin: 0; }
+  .link {
+    display: inline-block;
+    height: 50px;
+    width: 80px;
+    margin: 0px;
+    padding: 10px;
+    font-size: 50%; }
+    .link img {
+      width: 100%; }
+    .link p {
+      padding: 0;
+      margin: 0; }
 
-.clearfix:after {
-  display: block;
-  clear: both;
-  content: ""; }
+  .clearfix:after {
+    display: block;
+    clear: both;
+    content: ""; } }

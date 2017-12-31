@@ -3,63 +3,134 @@ $base-color: #9FA0A0
 $accent-color: #9BCB6C
 
 
-body
-    margin: 0
-    font-family: $font-stack
-    background-color: $base-color
-    color: white
-    
-    h1
-        font-weight: 500
-        font-style: normal
-        margin-top: 0px
-        padding: 10px
-    header
-        background-color: $accent-color
-    .exploitourist
-        text-align: center
-        background-color: $base-color
-        padding: 100px
-        font-size: 150%
-        .green
-            color: $accent-color
-        p
-            color: $accent-color
-            font-size: 130%
-            .white
-                color: white
-    .about
-        text-align: right
-        padding-bottom: 10px
-        margin-bottom: 10px
-        background-color: $accent-color
-        background-size: cover
-        h1
-            display: inline-block
-            padding-bottom: 0px
-            margin-bottom: 0px
-            font-size: 400%
-        p
-            padding-top: 0px
-            margin-top: 0px
-    .copyright
-        text-align: center
-        background-color: $base-color
-        background-size: cover
-.links
-    text-align: center
-    padding-top: 10px
-    height: auto
-.link
-    display: inline-block
-    padding-left: 200px
-    height: 100px
-    margin: 10px
-    font-size: 200%
-    p
-        padding: 0
+@media only screen and (min-width:641px)
+    body
         margin: 0
-.clearfix:after
-    display: block
-    clear: both
-    content: ""
+        font-family: $font-stack
+        background-color: $base-color
+        color: white
+        
+        h1
+            font-weight: 500
+            font-style: normal
+            margin-top: 0px
+            padding: 10px
+        header
+            background-color: $accent-color
+        .exploitourist
+            text-align: center
+            background-color: $base-color
+            padding: 0
+            font-size: 140%
+            .green
+                color: $accent-color
+            p
+                color: $accent-color
+                font-size: 180%
+                .white
+                    color: white
+        .about
+            text-align: center
+            padding-bottom: 10px
+            margin-bottom: 10px
+            background-color: $accent-color
+            background-size: cover
+            h1
+                display: inline-block
+                padding-bottom: 0px
+                margin-bottom: 0px
+                font-size: 300%
+            p
+                padding-top: 0px
+                margin-top: 0px
+        .copyright
+            text-align: center
+            background-color: $base-color
+            background-size: cover
+    .links
+        text-align: center
+        margin-left: 1%
+        padding-left: 1%
+        padding-top: 10px
+        height: auto
+    .link
+        display: inline-block
+        padding-left: 2%
+        width: auto
+        margin: 1%
+        p
+            padding: 0
+            margin: 0
+    .clearfix:after
+        display: block
+        clear: both
+        content: ""
+@media only screen and (max-width:640px)
+    body
+        margin: 0
+        font-family: $font-stack
+        background-color: $base-color
+        color: white
+        
+        h1
+            font-weight: 500
+            font-style: normal
+            margin-top: 0px
+            padding: 10px
+        header
+            background-color: $accent-color
+        .exploitourist
+            text-align: center
+            background-color: $base-color
+            padding: 1
+            margin: 1
+            font-size: 110%
+            .green
+                color: $accent-color
+            p
+                color: $accent-color
+                font-size: 140%
+                .white
+                    color: white
+        .about
+            text-align: center
+            padding-left: 0px
+            margin-left: 0px
+            padding-bottom: 10px
+            margin-bottom: 10px
+            background-color: $accent-color
+            background-size: cover
+            h1
+                display: inline-block
+                padding-bottom: 0px
+                margin-bottom: 0px
+                font-size: 300%
+            p
+                padding-left: 10px
+                padding-top: 0px
+                margin-top: 0px
+        .copyright
+            text-align: center
+            background-color: $base-color
+            background-size: cover
+    .links
+        text-align: left
+        padding-left: 13%
+        padding-top: 10px
+        height: auto
+    .link
+        display: inline-block
+        height: 50px
+        width: 80px
+        margin: 0px
+        padding: 10px
+        font-size: 50%
+        img
+            width: 100%
+        p
+            padding: 0
+            margin: 0
+    .clearfix:after
+        display: block
+        clear: both
+        content: ""
